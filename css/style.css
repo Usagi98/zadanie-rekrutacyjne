@@ -128,7 +128,8 @@ h2 {
 
 .button {
     width: 30%;
-    height: 15%;
+    height: 20%;
+    font-size: 50%;
 
 }
 
@@ -136,11 +137,14 @@ p.check {
     font-size: 10px;
 }
 .item input {
-  width: 47%;
+  width: 70%;
 }
  
  select {
-    width: 47%;
+    width: 70%;
+}
+textarea {
+  width: 70%;
 }
 
 }
