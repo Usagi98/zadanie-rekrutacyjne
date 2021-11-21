@@ -128,8 +128,8 @@ h2 {
 
 .button {
     width: 30%;
-    height: 20%;
-    font-size: 50%;
+    height: 50px;
+    font-weight: bold;
 
 }
 
