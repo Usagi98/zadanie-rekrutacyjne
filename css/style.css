@@ -163,5 +163,8 @@ div.alternative {
 div.content {
     width: 90%;
 }
+.line {
+  display: none;
+}
 
 }
