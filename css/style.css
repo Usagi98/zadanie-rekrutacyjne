@@ -118,7 +118,7 @@ h1 {
     font-size: 28px;
 }
 h2 {
-    font-size: 22px;
+    font-size: 18px;
 }
 :hover#shadow , :hover#shadow2, :hover#shadow3, :hover#shadow4, :hover#shadow5, :hover#shadow6, 
 :hover#shadow7, :hover#shadow8, :hover#shadow9, :hover#shadow10, :hover#shadow11, :hover#shadow12 {
@@ -127,8 +127,8 @@ h2 {
 }
 
 .button {
-    width: 20%;
-    height: 10%;
+    width: 30%;
+    height: 15%;
 
 }
 
