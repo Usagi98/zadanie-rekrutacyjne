@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+  }
+  
+  *:focus {
+	box-shadow: none;
+  }
+ 
+  body, html {
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .area {
+      text-align: center;
+      padding-bottom: 7%;
+      
+  }
+
+  .flex-container {
+
+    position: relative;
+  }
+
+ 
+
+  footer {
+      background-image: url("https://i.postimg.cc/59zDxd0k/background.jpg");
+      color: white;
+      padding: 1%;
+  
+  }
+
+
+.button {
+    color: white;
+    font-size: 60%;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 1%;
+    width: 8%;
+    background-color: #34a6dd;
+    border: none;
+    margin-bottom: 2%;
+
+}
+
+
+:hover.button {
+    background-color: #317da3;
+}
+.form {
+    
+    color: gray;
+    border: none;
+    border-radius: 4px;
+    margin: 0.3%;
+    padding: 10px; 
+}
+
+
+.item input {
+  width: 15%;}
+
+select {
+    width: 15%;
+}
+textarea {
+    width: 47%;
+}
+a:link {
+text-decoration: none;
+color: #34a6dd;
+}
+
+a:visited {
+text-decoration: none;
+color: #34a6dd;   
+}
+
+
+:hover#hover, :hover#hover2, :hover#hover3, :hover#hover4, :hover#hover5, :hover#hover6, :hover#hover7 {
+border: solid #34a6dd;
+}
+
+
+.pics {
+float: left;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+.floatfix:after {
+content:'';
+display: block;
+clear: both;
+}
+
+
+/*------MAX-WIDTH 768-----*/
+@media screen and (max-width: 900px) {
+.contener {
+  width: 95%;	
+  padding: 2% 2% 5% 2%;
+}
+.gear {
+    display: none;
+}
+
+.flex-container {
+    display: none;
+}
+
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 22px;
+}
+:hover#shadow , :hover#shadow2, :hover#shadow3, :hover#shadow4, :hover#shadow5, :hover#shadow6, 
+:hover#shadow7, :hover#shadow8, :hover#shadow9, :hover#shadow10, :hover#shadow11, :hover#shadow12 {
+  color: #274291;
+
+}
+
+.button {
+    width: 20%;
+    height: 10%;
+
+}
+
+p.check {
+    font-size: 10px;
+}
+.item input {
+  width: 47%;
+}
+ 
+ select {
+    width: 47%;
+}
+
+}
+
+@media screen and (min-width: 901px) {
+.contener {
+width: 95%;	
+}
+
+div.contener {
+   display: none;
+}
+div.alternative {
+    display: none;
+}
+div.content {
+    width: 90%;
+}
+
+}
