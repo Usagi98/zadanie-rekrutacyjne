@@ -100,8 +100,8 @@ clear: both;
 }
 
 
-/*------MAX-WIDTH 768-----*/
-@media screen and (max-width: 900px) {
+/*------MAX-WIDTH 700-----*/
+@media screen and (max-width: 700px) {
 .contener {
   width: 95%;	
   padding: 2% 2% 5% 2%;
@@ -149,7 +149,7 @@ textarea {
 
 }
 
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 701px) {
 .contener {
 width: 95%;	
 }
