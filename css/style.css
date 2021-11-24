@@ -83,10 +83,281 @@ color: #34a6dd;
 
 
 :hover#hover, :hover#hover2, :hover#hover3, :hover#hover4, :hover#hover5, :hover#hover6, :hover#hover7 {
-border: solid #34a6dd;
+  -webkit-box-shadow: -1px 2px 28px 1px rgba(4, 4, 4, 1);
+  -moz-box-shadow: -1px 2px 28px 1px rgba(4, 4, 4, 1);
+  box-shadow: -1px 2px 28px 1px rgba(4, 4, 4, 1);
+}
+
+/* gear starts*/
+
+.parent{
+  display: flex;
+  height: 500px;
+}
+
+.blueGear{
+  position: relative;
+  top: -7%;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  background: #3aa4c9;
+  border-radius: 50%;
+  
+}
+
+.blueGear .center{
+  position: absolute;
+  top: 1.5%;
+  left: 1.5%;
+  z-index: 10;
+  width: 291px;
+  height: 291px;
+  background: #fff;
+  border-radius: 50%;
+  border: 2px 
+}
+.center {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  z-index: 10;
+  width: 296px;
+  height: 296px;
+  background: #000;
+  border-radius: 50%;
+  border: 2px 
+}
+
+.image {
+  position: absolute;
+  top: 8%;
+  left: 7%;
+}
+
+.tooth{
+  position: absolute;
+  top: 10%;
+  left: 45.7%;
+  z-index: 1;
+  width: 45px;
+  height: 348px;
+  background:#3aa4c9;
+
+}
+
+.innerTooth {
+  position: absolute;
+  top: 1%;
+  left: 8%;
+  z-index: 1;
+  width: 37px;
+  height: 340px;
+  background: #fff;
+ 
+}
+
+.tooth:nth-child(2){
+  transform: rotate(30deg);
+}
+
+.tooth:nth-child(3){
+  transform: rotate(60deg);
+}
+
+.tooth:nth-child(4){
+  transform: rotate(90deg);
+}
+.tooth:nth-child(5){
+  transform: rotate(120deg);
+}
+
+.tooth:nth-child(6){
+  transform: rotate(180deg);
+}
+.tooth:nth-child(7){
+  transform: rotate(150deg);
 }
 
 
+.circle {
+  position: relative;
+  text-align: center;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.middle {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+
+.test {
+  transform: rotate(15deg) translateX(0px);
+}
+
+/* gear ends*/
+.main {
+  left: 30%;
+  position: relative;
+  border: 2px solid #DADCE0;
+  border-radius: 50%;
+  width: 430px;
+  height: 430px;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.submain {
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.submain:nth-child(1) {
+
+  transform: translateX(210px);
+}
+
+.submain:nth-child(2) {
+  transform: rotate(30deg) translateX(210px);
+}
+
+.submain:nth-child(3) {
+  transform: rotate(60deg) translateX(210px);
+}
+
+.submain:nth-child(4) {
+  transform: rotate(90deg) translateX(210px);
+}
+
+.submain:nth-child(5) {
+  transform: rotate(120deg) translateX(210px);
+}
+
+.submain:nth-child(6) {
+  transform: rotate(150deg) translateX(210px);
+}
+.submain:nth-child(7) {
+  transform: rotate(180deg) translateX(210px);
+}
+
+.submain:nth-child(8) {
+  transform: rotate(210deg) translateX(210px);
+}
+
+.submain:nth-child(9) {
+  transform: rotate(240deg) translateX(210px);
+}
+
+.submain:nth-child(10) {
+  transform: rotate(300deg) translateX(210px);
+}
+
+.submain:nth-child(11) {
+  transform: rotate(330deg) translateX(210px);
+}
+.submain:nth-child(12) {
+  transform: rotate(271deg) translateX(210px);
+}
+
+div.submain p {
+ 
+  font-size: 12px;
+  white-space:nowrap;
+  font-weight: bold;
+  
+}
+
+.names2  {
+  position: absolute;
+  top: -90%;
+  left: 100%;
+  
+}
+
+.names3 {
+  position: absolute;
+  top: -150%;
+  left: 50%;
+  
+}
+
+.names4 {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  
+}
+
+.names5 {
+  position: absolute;
+  top: 250%;
+  left: 30%;
+  
+}
+
+.names6 {
+  position: absolute;
+  top: 120%;
+  left: 100%;
+  
+}
+  
+.names7 {
+  position: absolute;
+  top: 30%;
+  left: 130%;
+  
+}
+
+.names8 {
+  position: absolute;
+  top: -80%;
+  left: 100%;
+  
+}
+
+.names9 {
+  position: absolute;
+  top: -90%;
+  left: 70%;
+  
+}
+
+.names10 {
+  position: absolute;
+  top: 220%;
+  left: 30%
+}
+
+.names11 {
+  position: absolute;
+  top: 150%;
+  left: 100%
+}
+  
+.names12 {
+  position: absolute;
+  top: 40%;
+  left: 50%
+}
+  
+.names {
+  position: absolute;
+  top: 40%;
+  left: 130%
+}
 .pics {
 float: left;
 padding-left: 10px;
