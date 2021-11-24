@@ -372,12 +372,12 @@ clear: both;
 
 
 /*------MAX-WIDTH 700-----*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 624px) {
 .contener {
   width: 95%;	
   padding: 2% 2% 5% 2%;
 }
-.gear {
+div.main {
     display: none;
 }
 
@@ -420,7 +420,7 @@ textarea {
 
 }
 
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 625px) {
 .contener {
 width: 95%;	
 }
