@@ -286,6 +286,15 @@ div.submain p {
   
 }
 
+div.submain a {
+  text-decoration: none;
+  color: black; 
+}
+
+/*:hover div.submain a {
+  color:#274291;
+}
+*/
 .names3 {
   position: absolute;
   top: -207%;
